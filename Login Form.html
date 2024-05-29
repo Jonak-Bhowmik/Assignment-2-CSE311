@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- The Head Part-->
+<head>
+
+<!-- The title of the login page is "Login Form"-->
+
+    <title>
+      Login Form
+    </title>
+
+<style>
+
+    .container
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        width: 400px;
+        background: #fff;
+        margin: 50px auto;
+        padding: 20px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    }
+    
+    .button
+    {
+        height:40px;
+        width: 400px;
+        margin-top: 4px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        background: #4caf50;
+        color: #fff;
+        border-radius: 3px;
+        cursor: pointer;
+        text-align: center;
+    } 
+
+    .a
+    {
+        color: #007bff;
+        cursor: pointer;
+    }
+
+    .link
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        text-align: center;
+        margin-bottom: 20PX;
+    }
+</style>
+
+</head>
+
+<!-- The Body Part-->
+
+<body style="background-color: #f4f4f4;">
+
+        <div class="container">
+            
+            <h2 style="font-size: medium;text-align: center;">Login Form</h2>
+            
+            <form>
+                <label for="Username">Username:</label><br>
+                <input type="text" id="name" name="Username" size="55px" style="height: 30px;margin-top:3px;margin-bottom: 12px;border-width:1px;border-style:groove;border-color: #ccc"><br>
+                <label for="Password">Password:</label><br>
+                <input type="password" id="password" name="Password" size="55px" style="height: 30px;margin-top:3px;margin-bottom: 12px;border-width:1px;border-style:groove;border-color: #ccc"><br>
+                <input type="checkbox">
+                <label for="remember me">Remember Me</label><br>
+                <button class="button">Login</button>    
+                <div class="link">
+                    <a  href="#" class="a">Forgot Password?</a> <br><br>
+                    <label for="register">Don't have an account?</label>
+                    <a href="#" class="a">Register</a>    
+                </div>
+            </form>
+
+        </div>
+    
+</body>
+
+</html>
